@@ -15,6 +15,8 @@ public class Cat {
 
     }
 
+    public Cat() {
+    }
 
     public boolean fight(Cat anotherCat){
         int agePlus = this.age > anotherCat.age ? 1 : 0;
