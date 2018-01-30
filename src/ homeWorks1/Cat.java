@@ -4,7 +4,7 @@ public class Cat {
     String name;
     int age;
     int weight;
-   int strength;
+    int strength;
 
 
     public Cat(String name, int age, int weight, int strength) {
@@ -12,7 +12,10 @@ public class Cat {
         this.age = age;
         this.weight = weight;
         this.strength = strength;
+    }
 
+    
+         public Cat() {
     }
 
     public Cat() {
@@ -23,7 +26,7 @@ public class Cat {
         int weightPlus = this.weight > anotherCat.weight ? 1 : 0;
         int strengthPlus = this.strength > anotherCat.strength ? 1 : 0;
         int score = agePlus + weightPlus + strengthPlus;
-        return score >2;
+        return score > 2;
     }
 
 
