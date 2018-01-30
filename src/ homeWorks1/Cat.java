@@ -12,7 +12,10 @@ public class Cat {
         this.age = age;
         this.weight = weight;
         this.strength = strength;
+    }
 
+    
+         public Cat() {
     }
 
 
